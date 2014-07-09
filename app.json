@@ -1,0 +1,33 @@
+{
+  "name": "Hubot for Campfire",
+  "description": "A customizable, kegerator-powered life embetterment robot",
+  "keywords": [
+    "hubot",
+    "bot",
+    "chat",
+    "Campfire",
+    "HipChat",
+    "automation",
+    "CI",
+    "GitHub"
+  ],
+  "logo": "https://i.cloudup.com/_823ueoTYl.png",
+  "repository": "https://github.com/zeke/hubot",
+  "addons": ["rediscloud"],
+  "env": {
+    "HUBOT_CAMPFIRE_ACCOUNT": {
+      "required": true
+    },
+    "HUBOT_CAMPFIRE_TOKEN": {
+      "required": true
+    },
+    "HUBOT_CAMPFIRE_ROOMS": {
+      "required": true,
+      "description": "A comma-separated list of Campfire room names that Hubot should join."
+    },
+    "HEROKU_URL": {
+      "required": true,
+      "description": "Hubot needs to ping itself periodically to stay awake. To do so, it needs to know its own fully-qualified Heroku app URL, e.g. https://my-hubot.herokuapp.com"
+    }
+  }
+}
