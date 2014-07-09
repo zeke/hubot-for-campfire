@@ -12,7 +12,7 @@
     "GitHub"
   ],
   "logo": "https://i.cloudup.com/_823ueoTYl.png",
-  "repository": "https://github.com/zeke/hubot",
+  "repository": "https://github.com/zeke/hubot-for-campfire",
   "addons": ["rediscloud"],
   "env": {
     "HUBOT_CAMPFIRE_ACCOUNT": {
